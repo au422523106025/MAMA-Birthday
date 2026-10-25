@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My MAMA ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <canvas id="stars"></canvas>
+
+  <audio id="loveSong" loop preload="auto">
+  <source src="./photos/song.mp3" type="audio/mpeg">
+</audio>
+
+  <!-- PASSWORD / WELCOME SCREEN -->
+  <section id="lockScreen" class="screen">
+    <div class="moon">☾</div>
+    <div class="lock-card">
+      <div class="heart">♡</div>
+      <p class="eyebrow">A LITTLE UNIVERSE MADE FOR YOU</p>
+      <h1>Hey, MAMA...</h1>
+      <p class="soft-text">
+        Someone has made a little world<br>
+        filled with love, just for you. 💗
+      </p>
+      <label for="secretCode">Enter your secret code</label>
+      <input id="secretCode" type="password" placeholder="Your secret word...">
+      <button id="unlockBtn">Open My Heart ✨</button>
+      <p id="errorMessage" class="error"></p>
+      <p class="tiny">Hint: What I call you every day? 💕</p>
+    </div>
+  </section>
+
+  <!-- MAIN WEBSITE -->
+  <main id="mainWebsite" class="hidden">
+    <nav>
+      <span class="nav-logo">M ♡ T</span>
+      <button id="musicBtn" class="music-btn">♫ Play Our Song</button>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">TO MY FAVOURITE HUMAN</p>
+      <h1>Happy Birthday,<br><span>My MAMA</span> 💗</h1>
+      <p class="hero-text">
+        Out of all the stars in this universe,<br>
+        my heart chose you.
+      </p>
+      <div class="orbit-heart">♡</div>
+      <p class="handwriting">You are my favourite kind of forever...</p>
+      <a href="#memories" class="discover">Our little memories ↓</a>
+    </section>
+
+    <section class="intro section">
+      <p class="eyebrow">OUR LITTLE UNIVERSE</p>
+      <h2>Every picture has a piece of my heart.</h2>
+      <p class="soft-text">
+        MAMA, these are not just photos. These are little moments
+        that I wish I could live a thousand times again.
+      </p>
+    </section>
+
+    <!-- PHOTOS + HANDWRITTEN MEMORIES -->
+    <section id="memories" class="section">
+      <p class="eyebrow">CHAPTERS OF US</p>
+      <h2>Our Memory Lane 📸</h2>
+      <div id="memoryGallery" class="gallery"></div>
+    </section>
+
+    <!-- LOVE LETTER -->
+    <section class="letter-section section">
+      <p class="eyebrow">A LETTER FROM MY HEART</p>
+      <h2>To my MAMA, with all my love 💌</h2>
+      <button id="letterBtn" class="main-btn">Open My Love Letter</button>
+
+      <article id="loveLetter" class="letter hidden">
+        <p class="letter-date">To my favourite person, MAMA ♡</p>
+        <p>My dearest MAMA,</p>
+
+        <p>
+          Happy Birthday, my love. ❤️ Un life-la nee innum neraya
+          happiness, success, peace ellame experience pannanum.
+          Un smile eppovum ippadiye irukkanum.
+        </p>
+
+        <p>
+          Un kooda pesura chinna chinna moments kooda enakku
+          romba special. Sometimes words-la solla mudiyatha alavukku
+          nee enakku important. Un presence en ordinary days-a kooda
+          beautiful-a maathidum.
+        </p>
+
+        <p>
+          Namma life always perfect-a irukkanum nu naan expect pannala.
+          Happy days irukkum, difficult days-um irukkum. Aana
+          understanding-oda, honesty-oda, love-oda namma rendu perum
+          orutharukku oruthar support-a irukkanum nu aasai paduren.
+        </p>
+
+        <p>
+          MAMA, nee un dreams ellame achieve pannanum.
+          Nee tired-a irukkumbodhu rest edukkanum, sad-a irukkumbodhu
+          un feelings-a share pannanum, happy-a irukkumbodhu
+          en kooda celebrate pannanum.
+        </p>
+
+        <p>
+          Indha universe-la evlo stars irundhaalum, enakku special-a
+          theriyura star nee dhaan. Thank you for being part of my life.
+          Un birthday-la mattum illa, ordinary days-layum nee loved
+          and appreciated-a feel pannanum.
+        </p>
+
+        <p>I love you, MAMA. More than these little words can explain. ♡</p>
+
+        <p class="signature">Forever with love,<br>Your Thilaga 💗</p>
+      </article>
+    </section>
+
+    <!-- BIRTHDAY WISH -->
+    <section class="birthday-section section">
+      <div class="big-heart">♥</div>
+      <p class="eyebrow">YOUR SPECIAL DAY</p>
+      <h2>One wish, a thousand feelings.</h2>
+      <p class="soft-text">
+        Happy Birthday, MAMA! May this year bring you closer
+        to every dream you hold in your heart. No matter how
+        ordinary a day may seem, I hope you always remember
+        that somewhere, someone is smiling just because you exist. 💗
+      </p>
+      <p class="handwriting">In every lifetime, a little more us. ♡</p>
+    </section>
+
+    <footer>
+      <p>Made with all my love ♡</p>
+      <h2>MAMA × THILAGA</h2>
+      <p class="tiny">Under the same beautiful sky, always. 🌙</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
